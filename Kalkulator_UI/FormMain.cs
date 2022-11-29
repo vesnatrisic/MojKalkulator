@@ -100,7 +100,7 @@ namespace Kalkulator_UI
         {
             if (String.IsNullOrEmpty(textBoxDisplay.Text) != true)
             {
-                //TODO 
+                 
             }
          }
 
@@ -171,7 +171,8 @@ namespace Kalkulator_UI
 
         private void labelCoders_Click(object sender, EventArgs e)
         {
-            this.labelStatus.Text = "smisli nešto!";
+            AboutForm NovaForma = new AboutForm();
+            NovaForma.Show();
         }
 
         private void ClearAllDisplayData()

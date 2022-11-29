@@ -16,5 +16,15 @@ namespace Kalkulator_UI
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void VratiSeNazad_Click(object sender, EventArgs e)
+        {
+            this.Close(); 
+        }
     }
 }
