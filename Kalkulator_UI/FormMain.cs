@@ -14,8 +14,8 @@ namespace Kalkulator_UI
 {
     public partial class FormMain : Form
     {
-        int br1 = 0;
-        int br2 = 0;
+        float br1 = 0;
+        float br2 = 0;
         string operacija = string.Empty;
 
         Kalkulator vjezba = new Kalkulator();
@@ -121,7 +121,7 @@ namespace Kalkulator_UI
         {
             if (String.IsNullOrEmpty(operacija) == true)
             {
-                br1 = Convert.ToInt32(textBoxDisplay.Text);
+                br1 = float.Parse(textBoxDisplay.Text);
                 operacija = "+";
                 labelStatus.Text = $"{br1} {operacija}";
                 ClearAllDisplayData();
@@ -132,7 +132,7 @@ namespace Kalkulator_UI
         {
             if (String.IsNullOrEmpty(operacija) == true)
             {
-                br1 = Convert.ToInt32(textBoxDisplay.Text);
+                br1 = float.Parse(textBoxDisplay.Text);
                 operacija = "-";
                 labelStatus.Text = $"{br1} {operacija}";
                 ClearAllDisplayData();
@@ -144,7 +144,7 @@ namespace Kalkulator_UI
         {
             if (String.IsNullOrEmpty(operacija) == true)
             {
-                br1 = Convert.ToInt32(textBoxDisplay.Text);
+                br1 = float.Parse(textBoxDisplay.Text);
                 operacija = "*";
                 labelStatus.Text = $"{br1} {operacija}";
                 ClearAllDisplayData();
@@ -156,7 +156,7 @@ namespace Kalkulator_UI
         {
             if (String.IsNullOrEmpty(operacija) == true)
             {
-                br1 = Convert.ToInt32(textBoxDisplay.Text);
+                br1 = float.Parse(textBoxDisplay.Text);
                 operacija = "/";
                 labelStatus.Text = $"{br1} {operacija}";
                 ClearAllDisplayData();
@@ -194,7 +194,7 @@ namespace Kalkulator_UI
                 }
                 else
                 {
-                    br2= Convert.ToInt32(textBoxDisplay.Text);
+                    br2= float.Parse(textBoxDisplay.Text);
                     var calc = new Kalkulator();
                     calc.PrviBroj = br1;
                     calc.DrugiBroj = br2;
@@ -209,9 +209,9 @@ namespace Kalkulator_UI
 
         private void buttonDot_Click(object sender, EventArgs e)
         {
-            if (!textBoxDisplay.Text.Contains("."))
+            if (!textBoxDisplay.Text.Contains(","))
             {
-                textBoxDisplay.Text += ".";
+                textBoxDisplay.Text += ",";
             }
         }
 

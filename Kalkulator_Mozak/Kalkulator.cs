@@ -6,12 +6,12 @@ namespace Kalkulator_Mozak
 {
     public class Kalkulator
     {
-        public int PrviBroj { get; set; }
-        public int DrugiBroj { get; set; }
+        public float PrviBroj { get; set; }
+        public float DrugiBroj { get; set; }
 
         public string Operacija { get; set; }
-        private int Rezultat;
-        public int MojRezultat
+        private float Rezultat;
+        public float MojRezultat
         {
             get
             {
@@ -24,9 +24,9 @@ namespace Kalkulator_Mozak
         /// <summary>
         /// Opisuje funkcionalnost ovog ispod. Stavi misa na MatematickaOperacija pa vidi.
         /// </summary>
-        private int MatematickaOperacija(int broj1, int broj2, string operacija)
+        private float MatematickaOperacija(float broj1, float broj2, string operacija)
         {
-            int rjesenje = 0;
+            float rjesenje = 0;
             switch (operacija)
             {
                 case "+":

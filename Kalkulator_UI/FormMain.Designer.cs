@@ -135,7 +135,7 @@
             this.buttonDot.Name = "buttonDot";
             this.buttonDot.Size = new System.Drawing.Size(53, 49);
             this.buttonDot.TabIndex = 16;
-            this.buttonDot.Text = ".";
+            this.buttonDot.Text = ",";
             this.buttonDot.UseVisualStyleBackColor = true;
             this.buttonDot.Click += new System.EventHandler(this.buttonDot_Click);
             // 
