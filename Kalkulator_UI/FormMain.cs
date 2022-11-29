@@ -100,7 +100,7 @@ namespace Kalkulator_UI
         {
             if (String.IsNullOrEmpty(textBoxDisplay.Text) != true)
             {
-                 
+                 textBoxDisplay.Text = textBoxDisplay.Text.Remove(textBoxDisplay.Text.Length - 1, 1);
             }
          }
 
