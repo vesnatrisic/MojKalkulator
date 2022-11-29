@@ -104,6 +104,7 @@ namespace Kalkulator_UI
             }
          }
 
+        //caooo 
         private void buttonClear_Click(object sender, EventArgs e)
         {
             ClearAllDisplayData();           
