@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator_UI", "Kalkulator_UI\Kalkulator_UI.csproj", "{0C3456FB-5B82-416A-AC98-C653A3DCBE10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FAEA7D51-EA8B-4A07-9D97-C7877744CEBA} = {FAEA7D51-EA8B-4A07-9D97-C7877744CEBA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator_Mozak", "Kalkulator_Mozak\Kalkulator_Mozak.csproj", "{FAEA7D51-EA8B-4A07-9D97-C7877744CEBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C3456FB-5B82-416A-AC98-C653A3DCBE10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3456FB-5B82-416A-AC98-C653A3DCBE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3456FB-5B82-416A-AC98-C653A3DCBE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3456FB-5B82-416A-AC98-C653A3DCBE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAEA7D51-EA8B-4A07-9D97-C7877744CEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEA7D51-EA8B-4A07-9D97-C7877744CEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEA7D51-EA8B-4A07-9D97-C7877744CEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEA7D51-EA8B-4A07-9D97-C7877744CEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F279470-86C0-4658-B787-D8EC0195A6C8}
+	EndGlobalSection
+EndGlobal
