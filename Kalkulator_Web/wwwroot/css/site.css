@@ -63,5 +63,10 @@ button {
 }
 .card {
     display: inline-block;
-    column-count: 4;
+    column-count: 3;
+}
+.card-group {
+    display: flex;
+    display: inline-block;
+    column-count: 3;
 }
