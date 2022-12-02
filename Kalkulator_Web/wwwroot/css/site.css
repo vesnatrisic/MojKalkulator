@@ -30,6 +30,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 400px;
+    column-count: 5;
 }
 
 .calculator-screen {
@@ -60,4 +61,7 @@ button {
     grid-gap: 20px;
     padding: 20px; 
 }
-
+.card {
+    display: inline-block;
+    column-count: 4;
+}
